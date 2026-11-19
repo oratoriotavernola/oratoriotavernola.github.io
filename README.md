@@ -53,7 +53,3 @@ Questo progetto utilizza GitHub Actions per CI/CD. Il workflow per il deployment
 ## License
 
 Il progetto è distribuito sotto la [GNU General Public License version 3](https://opensource.org/license/gpl-3-0). È possibile trovare il testo completo della licenza nel repository del progetto.
-
-### Configurazione GitHub Pages
-
-In Settings → Pages → Build and deployment, impostare Source su **GitHub Actions**. Il workflow installa le dipendenze in `app/`, compila Astro e pubblica `app/dist/`.
