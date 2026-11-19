@@ -32,6 +32,10 @@ bash cmd.sh setup
 
 Una volta completato il processo di configurazione, il progetto sarà accessibile all'indirizzo `localhost:4321`.
 
+### `start`
+
+Il programma verrà eseguito in modalità debug, il che significa che le modifiche al frontend verranno renderizzate al momento del reload. Tuttavia, se si apportano modifiche al backend, sarà necessario riavviare il programma eseguendo:
+
 ```sh
 bash cmd.sh start
 ```
