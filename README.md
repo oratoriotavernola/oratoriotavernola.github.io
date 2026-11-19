@@ -1,11 +1,11 @@
 | <img src="docs/theme/logo.svg" width="128"> |
 | - |
 
-# Website: `oratoriotavernola.it`
+# Sito web: `oratoriotavernola.it`
 
 ## Overview
 
-Questo progetto rappresenta il sito ufficiale del ***Oratorio di Tavernola***. Il sito mostra informazioni relative alle attività dell'oratorio, agli eventi in programma e alle iniziative della comunità.
+Questo progetto rappresenta il sito ufficiale dell'***Oratorio di Tavernola***. Il sito mostra informazioni relative alle attività dell'oratorio, agli eventi in programma e alle iniziative della comunità.
 
 ## Prerequisiti
 
