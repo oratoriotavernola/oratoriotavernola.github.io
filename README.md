@@ -1,71 +1,50 @@
+| <img src="docs/theme/logo.svg" width="128"> |
+| - |
+
 # Website: `oratoriotavernola.it`
 
 ## Overview
 
-This project is a website created using the Astro framework. It serves as a blog to showcase our work and projects.
+Questo progetto rappresenta il sito ufficiale del ***Oratorio di Tavernola***. Il sito mostra informazioni relative alle attività dell'oratorio, agli eventi in programma e alle iniziative della comunità.
 
-## Prerequisites
+## Prerequisiti
 
 > [!IMPORTANT]
 >
 > - Node.js
 
-## User Interface (UI)
+## Istruzioni
 
-| <a href="https://www.oratoriotavernola.it"><img src="./docs/cover.png" alt="UI" width="384"></a> |
-| :-: |
-| **Home - Oratorio di Tavernola** |
-
-## Instructions
-
-Usage:
+Utilizzo:
 
 ```sh
-bash cmd.sh {start|setup|build|deploy}
+bash cmd.sh {start|setup|deploy}
 ```
 
 ### `setup`
 
-If you haven't set up the project yet, you can do so by running:
+Se non è stato ancora configurato il progetto, è possibile farlo eseguendo:
 
 ```sh
 bash cmd.sh setup
 ```
 
-Once the setup process is complete, the project will be accessible at `localhost:4321`.
-
-> [!WARNING]
->
-> If this port is already in use, search for all occurrences of `4321` within the project and replace them with your preferred port number. After making these changes, you'll need to rebuild the project for the modifications to take effect.
-
-### `start`
-
-The program will run in debug mode, meaning frontend changes will be rendered upon reload. However, if you make changes to the backend, you will need to restart the program by running:
+Una volta completato il processo di configurazione, il progetto sarà accessibile all'indirizzo `localhost:4321`.
 
 ```sh
 bash cmd.sh start
 ```
 
-### `build`
-
-To generate the static files for the project, run the following command:
-
-```sh
-bash cmd.sh build
-```
-
-After the build process completes, the static files will be available in the `./app/dist` directory.
-
 ### `deploy`
 
-To deploy the application to production, you can use the following command:
+Per distribuire l'applicazione in produzione, utilizzare il seguente comando:
 
 ```sh
 bash cmd.sh deploy
 ```
 
-This project leverages GitHub Actions for CI/CD. The deployment workflow is configured to automatically build the project and deploy it to the GitHub Pages environment.
+Questo progetto utilizza GitHub Actions per CI/CD. Il workflow per il deployment è configurato nel file `.github/workflows/deploy.yml` per compilare automaticamente il progetto e distribuirlo nell'ambiente GitHub Pages.
 
 ## License
 
-This project is distributed under [GNU General Public License version 3](https://opensource.org/license/gpl-3-0). You can find the complete text of the license in the project repository.
+Il progetto è distribuito sotto la [GNU General Public License version 3](https://opensource.org/license/gpl-3-0). È possibile trovare il testo completo della licenza nel repository del progetto.
