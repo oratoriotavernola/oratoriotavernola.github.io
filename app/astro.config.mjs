@@ -1,6 +1,6 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://oratoriotavernola.it",
-  output: "static",
+    site: "https://oratoriotavernola.it",
+    output: "static",
 });
