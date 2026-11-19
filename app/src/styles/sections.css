@@ -271,7 +271,7 @@
 }
 
 .membership {
-	--membership-image: url("assets/images/c9f3e027d2f4e98bbbc6c981bc3363461a8f68f2-1920.webp");
+	--membership-image: url("/assets/images/c9f3e027d2f4e98bbbc6c981bc3363461a8f68f2-1920.webp");
 	display: grid;
 	justify-items: center;
 	gap: 48px;
@@ -396,7 +396,7 @@
 	}
 
 	.membership {
-		--membership-image: url("assets/images/c9f3e027d2f4e98bbbc6c981bc3363461a8f68f2-960.webp");
+		--membership-image: url("/assets/images/c9f3e027d2f4e98bbbc6c981bc3363461a8f68f2-960.webp");
 		gap: 32px;
 	}
 

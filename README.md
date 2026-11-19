@@ -12,6 +12,7 @@ Questo progetto rappresenta il sito ufficiale dell'***Oratorio di Tavernola***. 
 > [!IMPORTANT]
 >
 > - Node.js
+> - npm
 
 ## Istruzioni
 
